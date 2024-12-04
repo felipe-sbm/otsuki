@@ -16,11 +16,11 @@ export function Navbar() {
       >
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">Spiral SBM</span>
+            <span className="sr-only">Spiral Dev</span>
             <Image
               className="lg:h-20 h-12 w-auto opacity-100 transition duration-700 hover:opacity-75"
               src="/assets/logo-spiral.png"
-              alt="Logo da Spiral SBM"
+              alt="Logo da Spiral Dev"
               width={319}
               height={149}
             />

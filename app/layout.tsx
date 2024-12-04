@@ -19,7 +19,7 @@ const inter = Reem_Kufi_Fun({
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "Spiral SBM",
+    default: "Spiral Dev",
     template: "%s | Sendo espiral do jeito certo.",
   },
   description: "Site da Spiral.",
