@@ -47,7 +47,7 @@ export default function Page() {
             </div>
             <div className="absolute bottom-1/4 right-10 blur-xl">
               <Image
-                src="/assets/purpleSpiral.png"
+                src="/assets/purpleSpiral.webp"
                 alt="Logo da Spiral em uma notificação de celular"
                 width={370}
                 height={370}
@@ -56,10 +56,11 @@ export default function Page() {
               />
             </div>
             <Image
-              src="/assets/iphone_xs.png"
+              src="/assets/iphone_xs.webp"
               alt="Imagem de um iPhone XS Maxx para fixar outras imagens em cima"
               width={1920}
               height={717}
+              placeholder="blur"
               blurDataURL="/assets/iphone_xs.webp"
               className="select-none no-drag"
             />
@@ -216,7 +217,7 @@ export default function Page() {
           <h1 className="prices-title">Nunca é apenas um sonho</h1>
           <p className="mb-8 leading-relaxed text-2xl">
             Com valores abaixo do mercado, a nossa empresa pode te ajudar com
-            pequenas parcelas! :-) <br />
+            pequenas parcelas! ( ͡° ͜ʖ ͡°) <br />
             Confira abaixo os nossos planos
           </p>
         </div>

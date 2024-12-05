@@ -118,7 +118,7 @@ hr {
 #prices-border {
   border: 0.2rem solid transparent;
   border-image: linear-gradient(180deg, #380064, #6a1070, #9f1cab, #ce03bf) 1;
-  border-radius: 1rem;
+  border-radius: 4rem;
 }
 
 #grid-border-top {
@@ -219,6 +219,7 @@ hr {
   position: absolute;
   top: 10%;
   left: 10%;
+  overflow: hidden;
 }
 
 /* Consultas de mídia para telas médias */

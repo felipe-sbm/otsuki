@@ -19,7 +19,7 @@ export function Navbar() {
             <span className="sr-only">Spiral Dev</span>
             <Image
               className="lg:h-20 h-12 w-auto opacity-100 transition duration-700 hover:opacity-75"
-              src="/assets/logo-spiral.png"
+              src="/assets/logo-spiral.webp"
               alt="Logo da Spiral Dev"
               width={319}
               height={149}
