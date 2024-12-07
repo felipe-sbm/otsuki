@@ -27,13 +27,12 @@ export function Navbar() {
           </a>
         </div>
         <div className="flex justify-right">
-          <a
-            href="/"
+          <button
             className="transition ease-in-out delay-15 transition hover:scale-110 duration-700 focus:outline-none focus:ring active:bg-white/90"
             id="arco-iris"
           >
               <p className="bg-black py-1 lg:px-6 px-2 lg:text-3xl text-lg rounded-lg">Entrar em contato</p>
-          </a>
+          </button>
         </div>
       </nav>
     </header>

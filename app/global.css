@@ -118,7 +118,7 @@ hr {
 #prices-border {
   border: 0.2rem solid transparent;
   border-image: linear-gradient(180deg, #380064, #6a1070, #9f1cab, #ce03bf) 1;
-  border-radius: 4rem;
+  border-radius: 50%;
 }
 
 #grid-border-top {
@@ -172,6 +172,7 @@ hr {
   font-size: 10rem;
   display: inline-block;
   animation: mover 60s linear infinite;
+  line-height: 1;
 }
 
 .text-fade {
@@ -312,8 +313,9 @@ hr {
 
 @media (min-width: 1024px) {
   #type {
-    font-size: 2rem;
-    line-height: 2.5rem;
+    font-size: 4rem;
+    line-height: 3.3rem;
+    margin-bottom: 2.5rem;
   }
 
   @keyframes animated-text {

@@ -17,7 +17,7 @@ export default function Page() {
       <div className="flex justify-center items-center min-h-screen">
         <div className="justify-center max-w-5xl lg:grid grid-cols-2 gap-24 sm:mt-8 md:mt-12 lg:mt-24 lg:mb-4">
           <div className="leading-relaxed text-center lg:text-right dark:text-zinc-200 lg:pt-56 sm:pt-0 mb-10 mx-18">
-            <h1 className="font-medium text-6xl" id="type">
+            <h1 className="font-medium text-8xl" id="type">
               Simplesmente <br /> comece a{" "}
               <span className="text-fade">planejar</span>
             </h1>
@@ -45,7 +45,7 @@ export default function Page() {
                 Venha fazer parte dessa <br /> jornada conosco!
               </p>
             </div>
-            <div className="absolute bottom-1/4 right-10 blur-xl">
+            <div className="absolute bottom-1/4 right-10 blur-lg">
               <Image
                 src="/assets/purpleSpiral.webp"
                 alt="Logo da Spiral em uma notificação de celular"
@@ -217,13 +217,13 @@ export default function Page() {
           <h1 className="prices-title">Nunca é apenas um sonho</h1>
           <p className="mb-8 leading-relaxed text-2xl">
             Com valores abaixo do mercado, a nossa empresa pode te ajudar com
-            pequenas parcelas! ( ͡° ͜ʖ ͡°) <br />
+            pequenas parcelas! <br />
             Confira abaixo os nossos planos
           </p>
         </div>
         <div className="flex justify-center items-center">
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-1 sm:items-stretch md:grid-cols-2 lg:grid-cols-3 md:gap-8 justify-between max-w-7xl">
-            <div className="p-6 sm:px-8" id="prices-border">
+            <div className="p-6 sm:px-8 rounded-lg" id="prices-border">
               <span className="inline-flex rounded-full bg-red-700 px-2.5 py-0.5 text-red-100">
                 <Flame className="size-4" />
                 <p className="whitespace-nowrap text-sm">Mais popular</p>
@@ -405,26 +405,28 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="relative mb-20">
+      <div className="relative mb-20 mx-36">
         <Image
           src="/assets/Arrow.svg"
-          alt="Imagem para fixar outras imagens em cima"
+          alt="Uma seta apontando do texto para os cartões de preços"
           width={50}
           height={50}
           blurDataURL="/assets/Arrow.svg"
+          className="ml-72 select-none no-drag"
           id="arrow"
         />
-        <p id="sunshiney">
-          Lembresse que você pode modificar cada um desses pacotes, sem a
-          necessidade de pagar um valor alto! Nós fazemos o melhor para
+        <p className="text-lg" id="sunshiney">
+          Lembresse que você pode modificar cada um  <br />
+          desses pacotes, sem a necessidade de pagar <br />
+          um valor alto! Nós fazemos o melhor para  <br />
           moldarmos o que você pediu, viu? <br />
           Atenciosamente, <br />
-          -A equipe :-)
+          -A equipe ( ͡° ͜ʖ ͡°)
         </p>
       </div>
       <div className="relative mt-72">
-        <div className="letreiro">
-          <span className="sm:text-lg" id="letreiro">
+        <div className="letreiro overflow-hidden whitespace-nowrap">
+          <span className="sm:text-lg inline-block" id="letreiro">
             A SPIRAL PODE TE AJUDAR, ENTRE EM CONTATO! A SPIRAL PODE TE AJUDAR,
             ENTRE EM CONTATO!
           </span>
